@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Events Example</title>
+</head>
+<body>
+
+    <script language="javascript" type="text/javascript">
+       function fun(id){
+        id.bgColor = "pink";
+       } 
+
+       function fun2(e){
+        alert(e.keyCode);
+       }
+       function fun3(id){
+        id.bgColor = "lightblue";
+       }
+    </script>
+
+   <body onkeyup="fun(this)" onkeypress="fun2(event)" onkeydown="fun3(this)">
+
+   </body>
+</body>
+</html>
