@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Dhanashree V."
+    </script>
+
+
+    <h2>SEE Date and time.</h2>
+    <p id="demo1"></p>
+    <button type="button" onclick="document.getElementById('demo1').innerHTML = Date()">Click me to see time</button>
+
+
+
+    
+    <script>
+        function myFunction(){
+            let x = document.getElementById("demo2");
+            x.style.color="pink";
+            x.style.fontSize = "25px";
+        }
+    </script>
+</head>
+
+<body>
+    <h3>Change the paragraph style in color or font size.</h3>
+        <p id="demo2">Heelo shree how are you. In this paragraph if you click in clck button you will see the magic </p>
+    <button type="button" onclick="myFunction()">Click here to change the para style.</button> x
+</body>
+</html>

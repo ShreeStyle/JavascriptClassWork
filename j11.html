@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Prompt</title>
+</head>
+<body>
+    <script type="text/javascript" language="javascript">
+        function conf() {
+           
+            var r = confirm("Do you want to continue?");
+            
+            
+            if (r == true) {
+               
+                alert("You chose to continue!");
+            } else {
+                
+                alert("You canceled the operation!");
+            }
+        }
+    </script>
+
+    <button onclick="conf()">Click Here</button>
+</body>
+</html>
